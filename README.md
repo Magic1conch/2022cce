@@ -130,7 +130,7 @@ int main()
     printf("一元的:%d\n",n);
 }
 ```
-## week07-4
+## week07-4b
 算個位數:
 ```cpp
 #include <stdio.h>
