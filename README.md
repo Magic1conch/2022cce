@@ -170,3 +170,116 @@ int main()
     n=n/10;
 }
 ```
+
+# week07
+## week07-1
+判斷一個數是不是質數
+```cpp
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int bad=0;
+    for(int i=2;i<n;i++){
+        if(n%i==0)bad=1;
+    }
+    if(bad==0)printf("%d 是質數",n);
+    else printf("%d 不好,不是質數",n);
+}
+```
+## week07-2
+把輸入進去的數,裡的質數都列出來
+```cpp
+#include <stdio.h>>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    for(int n=2;n<=a;n++)
+    {
+        int bad=0;
+        for(int i=2;i<n;i++){
+            if(n%i==0)bad=1;
+        }
+        if(bad==0)printf("%d ",n);
+    }
+}
+```
+## week07-3
+輸入五個輸出結果相佳
+```cpp
+#include <stdio.h>
+int main()
+{
+    printf("請輸入五個數字(要加起來):");
+
+    int n;
+    int sum=0;
+    for(int i=0;i<5;i++){
+        scanf("%d",&n);
+        sum+=n;
+    }
+    printf("總和是:%d",sum);
+}
+```
+## week07-4
+用三個for迴圈畫直角三角形
+```cpp
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+
+    for(int i=1;i<=n;i++){
+        for(int k=1;k<=n-i;k++)printf(" ");
+        for(int k=1;k<=i;k++)printf("*");
+        printf("\n");
+    }
+}
+```
+## week07-5
+用兩個for迴圈畫直角三角形
+```cpp
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+
+    for(int i=1;i<=n;i++){
+        for(int k=1;k<=n;k++){
+            if(k<=n-i)printf(" ");
+            else printf("*");
+        }
+        printf("\n");
+    }
+}
+```
+## week07-6
+用兩個while迴圈畫直角三角形
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int i=1;
+    int j=1;
+    while(i<=n)
+    {
+        j=1;
+    	while(j<=n)
+    	{
+            if(j<=(n-i))printf(" ");
+            else printf("*");
+            j++;
+        }
+        printf("\n");
+        i++;
+    }
+}
+}
+```
