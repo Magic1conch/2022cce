@@ -171,8 +171,8 @@ int main()
 }
 ```
 
-# week07
-## week07-1
+# week08
+## week08-1
 判斷一個數是不是質數
 ```cpp
 #include <stdio.h>
@@ -188,7 +188,7 @@ int main()
     else printf("%d 不好,不是質數",n);
 }
 ```
-## week07-2
+## week08-2
 把輸入進去的數,裡的質數都列出來
 ```cpp
 #include <stdio.h>>
@@ -206,7 +206,7 @@ int main()
     }
 }
 ```
-## week07-3
+## week08-3
 輸入五個輸出結果相佳
 ```cpp
 #include <stdio.h>
@@ -223,7 +223,7 @@ int main()
     printf("總和是:%d",sum);
 }
 ```
-## week07-4
+## week08-4
 用三個for迴圈畫直角三角形
 ```cpp
 #include <stdio.h>
@@ -239,7 +239,7 @@ int main()
     }
 }
 ```
-## week07-5
+## week08-5
 用兩個for迴圈畫直角三角形
 ```cpp
 #include <stdio.h>
@@ -257,7 +257,7 @@ int main()
     }
 }
 ```
-## week07-6
+## week08-6
 用兩個while迴圈畫直角三角形
 ```cpp
 #include <bits/stdc++.h>
