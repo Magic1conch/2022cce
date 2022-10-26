@@ -207,7 +207,7 @@ int main()
 }
 ```
 ## week08-3
-輸入五個輸出結果相佳
+輸入五個輸出結果相加
 ```cpp
 #include <stdio.h>
 int main()
